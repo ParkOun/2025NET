@@ -21,7 +21,8 @@
 .visual {
 height: 100vh;
 min-height: 700PX;
-background-image: url(../넷마블문화재단/imgi_21_zuhg1614749942851.jpg);
+
+background-image: url(../img/imgi_21_zuhg1614749942851.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-color: cover;
@@ -32,3 +33,23 @@ color: white;
 .cont01{
     height: 300px;
 }
+
+    
+/* card */
+.card .wrap{
+    display:flex;
+    justify-content:space-around
+}
+.card img{
+     width: 100%;
+    
+}
+.card {
+   width: 384px;
+   padding: 16px
+    
+}
+.card .card-body{
+    padding: 20px 16px 0px
+}
+
